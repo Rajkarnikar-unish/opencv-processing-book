@@ -2,7 +2,7 @@
 
 <img src="http://gregborenstein.com/assets/opencv/threshold.gif" width="400px" />
 
-Thresholding is maybe the single most common image filter used with OpenCV. It takes a grayscale image and converts it into a "binary" image: one where every pixel is either all-white or all-black based on whether it's lighter or darker than the given threshold.
+Thresholding is the single most common image filter used with OpenCV. It takes a grayscale image and converts it into a "binary" image: one where every pixel is either all-white or all-black based on whether it's lighter or darker than the given threshold.
 
 Many super-useful OpenCV functions require a binary image, like [contour finding](https://github.com/atduskgreg/opencv-processing-book/blob/master/book/tracking/contours_and_lines.md).
 
